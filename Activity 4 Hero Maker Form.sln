@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Activity 4 Hero Maker Form", "Activity 4 Hero Maker Form\Activity 4 Hero Maker Form.csproj", "{F5AF065E-ED5A-4BA9-ACEB-ACA8B3128E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hero Maker Windows Forms", "Hero Maker Windows Forms\Hero Maker Windows Forms.csproj", "{A2022B43-24D5-446C-9C16-BB54AB53C516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroLibrary", "HeroLibrary\HeroLibrary.csproj", "{9977B0C7-21DA-482C-9176-E282E01D091D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5AF065E-ED5A-4BA9-ACEB-ACA8B3128E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AF065E-ED5A-4BA9-ACEB-ACA8B3128E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AF065E-ED5A-4BA9-ACEB-ACA8B3128E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AF065E-ED5A-4BA9-ACEB-ACA8B3128E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2022B43-24D5-446C-9C16-BB54AB53C516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2022B43-24D5-446C-9C16-BB54AB53C516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2022B43-24D5-446C-9C16-BB54AB53C516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2022B43-24D5-446C-9C16-BB54AB53C516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9977B0C7-21DA-482C-9176-E282E01D091D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9977B0C7-21DA-482C-9176-E282E01D091D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9977B0C7-21DA-482C-9176-E282E01D091D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9977B0C7-21DA-482C-9176-E282E01D091D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82ABD708-FFED-4E5C-B3CE-79517E8CF29A}
+	EndGlobalSection
+EndGlobal
