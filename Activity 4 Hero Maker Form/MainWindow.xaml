@@ -11,25 +11,16 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <GroupBox Header="Abilities">
-            <StackPanel Margin="5">
-                <Grid>
-                    <CheckBox HorizontalAlignment="Left" Content="Super Strength"/>
-                    <CheckBox HorizontalAlignment="Left" Content="Fly"/>
-                    <CheckBox HorizontalAlignment="Left" Content="xRay Vision"/>
-                    <CheckBox HorizontalAlignment="Left" Content="Invisibility"/>
-                    <CheckBox HorizontalAlignment="Left" Content="Absorb Energy"/>
-                    <CheckBox HorizontalAlignment="Left" Content="Telepathy"/>
-                    <CheckBox HorizontalAlignment="Right" VerticalAlignment="Top" Content="Extreme Luck"/>
-
-                </Grid>
-               </StackPanel>
+        <GroupBox Header="Abilities" Grid.Row="0">
+            <UniformGrid Rows="4" Columns="2" Margin="5">
+                <CheckBox HorizontalAlignment="Left" Content="Super Strength"/>
+                <CheckBox HorizontalAlignment="Left" Content="Absorb Energy"/>
+                <CheckBox HorizontalAlignment="Left" Content="Fly"/>
+                <CheckBox HorizontalAlignment="Left" Content="Telepathy"/>
+                <CheckBox HorizontalAlignment="Left" Content="xRay Vision"/>
+                <CheckBox HorizontalAlignment="Left" Content="Extreme Luck"/>
+                <CheckBox HorizontalAlignment="Left" Content="Invisibility"/>
+            </UniformGrid>
         </GroupBox>
     </Grid>
-
 </Window>
